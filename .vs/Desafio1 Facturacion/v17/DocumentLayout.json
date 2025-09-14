@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\DMD\\Facturacion\\Desafio1 Facturacion\\desafio1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFCF95F-CE8F-26E4-C895-A598C8AB77F1}|Desafio1 Facturacion\\Desafio1 Facturacion.dtproj|C:\\Users\\HP\\Desktop\\DMD\\Facturacion\\Desafio1 Facturacion\\desafio1\\Desafio1 Facturacion\\desafio1.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{FDFCF95F-CE8F-26E4-C895-A598C8AB77F1}|Desafio1 Facturacion\\Desafio1 Facturacion.dtproj|solutionrelative:Desafio1 Facturacion\\desafio1.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "desafio1.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\DMD\\Facturacion\\Desafio1 Facturacion\\desafio1\\Desafio1 Facturacion\\desafio1.dtsx",
+              "RelativeDocumentMoniker": "Desafio1 Facturacion\\desafio1.dtsx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\DMD\\Facturacion\\Desafio1 Facturacion\\desafio1\\Desafio1 Facturacion\\desafio1.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "Desafio1 Facturacion\\desafio1.dtsx [Dise\u00F1o]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-09-14T01:56:00.088Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2470 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="9/13/2025 4:47:24 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-KIRL4P4"
+  DTS:CreatorName="DESKTOP-KIRL4P4\HP"
+  DTS:DTSID="{7C6576C0-848A-4807-BE0B-E2731071D8E4}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.2"
+  DTS:LocaleID="17418"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="22"
+  DTS:VersionGUID="{0CCB2771-D613-4873-AAB1-74F02E8B2284}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones con Excel]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{5F8A052B-EC3B-485B-AC17-FCA8C3137C69}"
+      DTS:ObjectName="Administrador de conexiones con Excel">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\HP\Desktop\DMD\Facturacion\Facturacion_desafio1\xl_por_pais.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones con Excel 1]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{88D99C2A-4BC6-42DA-BB47-5C6104521B78}"
+      DTS:ObjectName="Administrador de conexiones con Excel 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\HP\Desktop\DMD\Facturacion\Facturacion_desafio1\xl_por_tipocliente.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones con Excel 10]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{76048C7B-BC95-40CE-99E0-CC4F5BC8AFEC}"
+      DTS:ObjectName="Administrador de conexiones con Excel 10">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\HP\Desktop\DMD\Facturacion\Desafio1 Facturacion\xl_por_tipocliente.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones con Excel 2]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{E8127A4C-CC71-4BA8-B4F0-06D3C0D18FE1}"
+      DTS:ObjectName="Administrador de conexiones con Excel 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\HP\Desktop\DMD\Facturacion\Facturacion_desafio1\xl_por_pais.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones con Excel 3]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{27D6B287-BA5B-460D-A6FA-179E2BD52E48}"
+      DTS:ObjectName="Administrador de conexiones con Excel 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\HP\Desktop\DMD\Facturacion\Facturacion_desafio1\xl_por_pais.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones con Excel 4]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{183C15FC-2138-490F-AFC3-DB857D4868C6}"
+      DTS:ObjectName="Administrador de conexiones con Excel 4">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\HP\Desktop\DMD\Facturacion\Facturacion_desafio1\xl_por_pais.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones con Excel 5]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{7F8EB130-A0A6-4664-95CB-83AF8B52540A}"
+      DTS:ObjectName="Administrador de conexiones con Excel 5">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\HP\Desktop\DMD\Facturacion\Facturacion_desafio1\xl_por_tipocliente.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones con Excel 6]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{5B4E4153-C693-40FE-BEDE-97F7C8658B86}"
+      DTS:ObjectName="Administrador de conexiones con Excel 6">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\HP\Desktop\DMD\Facturacion\Facturacion_desafio1\xl_por_pais.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones con Excel 7]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{1CC6BE24-83BE-4D50-8A6A-4F27F5B77137}"
+      DTS:ObjectName="Administrador de conexiones con Excel 7">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\HP\Desktop\DMD\Facturacion\Desafio1 Facturacion\xl_por_pais.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones con Excel 8]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{917EE05C-4304-4E29-B384-E1E6262E606D}"
+      DTS:ObjectName="Administrador de conexiones con Excel 8">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\HP\Desktop\DMD\Facturacion\Desafio1 Facturacion\xl_por_tipocliente.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones con Excel 9]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{C556B143-3E2B-482A-9671-664C011DE156}"
+      DTS:ObjectName="Administrador de conexiones con Excel 9">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\HP\Desktop\DMD\Facturacion\Desafio1 Facturacion\xl_por_pais.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-KIRL4P4\SQL2022DW.db_roaming_costarica]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{2E35F7B6-1A89-4783-8889-1C54909FE85D}"
+      DTS:ObjectName="DESKTOP-KIRL4P4\SQL2022DW.db_roaming_costarica">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-KIRL4P4\SQL2022DW;Initial Catalog=db_roaming_costarica;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{2E35F7B6-1A89-4783-8889-1C54909FE85D}DESKTOP-KIRL4P4\SQL2022DW.db_roaming_costarica;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-KIRL4P4\SQL2022DW.db_roaming_guatemala]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{6BE6BB81-63A6-4908-BEAA-1B2C39533847}"
+      DTS:ObjectName="DESKTOP-KIRL4P4\SQL2022DW.db_roaming_guatemala">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-KIRL4P4\SQL2022DW;Initial Catalog=db_roaming_guatemala;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{6BE6BB81-63A6-4908-BEAA-1B2C39533847}DESKTOP-KIRL4P4\SQL2022DW.db_roaming_guatemala;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-KIRL4P4\SQL2022DW.db_roaming_honduras]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{7A2C7C3A-1F2D-432F-9911-B2B9F2404B18}"
+      DTS:ObjectName="DESKTOP-KIRL4P4\SQL2022DW.db_roaming_honduras">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-KIRL4P4\SQL2022DW;Initial Catalog=db_roaming_honduras;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{7A2C7C3A-1F2D-432F-9911-B2B9F2404B18}DESKTOP-KIRL4P4\SQL2022DW.db_roaming_honduras;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Tarea Flujo de datos"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tarea Flujo de datos"
+      DTS:DTSID="{5D720634-4FB3-415F-AE95-C8BC64FFF5A0}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tarea Flujo de datos"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Tarea Flujo de datos\Agregado"
+              componentClassID="Microsoft.Aggregate"
+              contactInfo="Agregado;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;3"
+              description="Agrega datos mediante funciones como Average, Sum, Count, Max y Min. Por ejemplo, se agrupan datos para calcular la suma de las ventas por producto o el promedio de visitas por día."
+              name="Agregado"
+              version="3">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el número aproximado de claves GROUP BY que produce la agregación. Mínimo indica 500.000 valores de clave, Medio indica 5.000.000 de valores de clave y Alto indica más de 25.000.000 de valores de clave. No especificado indica que no se usó ningún valor de KeyScale."
+                  name="KeyScale"
+                  typeConverter="KeyScaleType">0</property>
+                <property
+                  dataType="System.Null"
+                  description="Especifica el número exacto de claves GROUP BY que produce la agregación. Si se especifica un valor de KeyScale, el valor de Keys tiene prioridad."
+                  name="Keys" />
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el número aproximado de valores distintos de una columna que cuenta la agregación de forma distintiva. Mínimo indica 500.000 valores de clave, Medio indica 5.000.000 de valores de clave y Alto indica más de 25.000.000 valores de clave. No especificado indica que no se usa ningún valor de CountDistinctScale."
+                  name="CountDistinctScale"
+                  typeConverter="KeyScaleType">0</property>
+                <property
+                  dataType="System.Null"
+                  description="Especifica el número exacto de valores distintos de una columna que cuenta la agregación de forma distintiva. Si se especifica un valor de CountDistinctScale, el valor de CountDistinctKeys tiene prioridad."
+                  name="CountDistinctKeys" />
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el porcentaje en el que puede ampliarse la memoria durante la agregación. Los valores válidos están comprendidos entre 1 y 100."
+                  name="AutoExtendFactor">25</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Agregado.Inputs[Entrada de agregado 1]"
+                  name="Entrada de agregado 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Agregado.Inputs[Entrada de agregado 1].Columns[pais]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="20"
+                      cachedName="pais"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[pais]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Agregado.Inputs[Entrada de agregado 1].Columns[monto]"
+                      cachedDataType="numeric"
+                      cachedName="monto"
+                      cachedPrecision="18"
+                      cachedScale="2"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[monto]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Agregado.Inputs[Entrada de agregado 1].Columns[idfacturacion]"
+                      cachedDataType="i4"
+                      cachedName="idfacturacion"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idfacturacion]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Agregado.Inputs[Entrada de agregado 1].Columns[tipo_cliente]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="100"
+                      cachedName="tipo_cliente"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[tipo_cliente]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Agregado.Outputs[por pais]"
+                  name="por pais">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el número aproximado de claves GROUP BY que produce la agregación. Mínimo indica 500.000 valores de clave, Medio indica 5.000.000 de valores de clave y Alto indica más de 25.000.000 de valores de clave. No especificado indica que no se usó ningún valor de KeyScale."
+                      name="KeyScale"
+                      typeConverter="KeyScaleType">0</property>
+                    <property
+                      dataType="System.Null"
+                      description="Especifica el número exacto de claves GROUP BY que produce la agregación. Si se especifica un valor de KeyScale, el valor de Keys tiene prioridad."
+                      name="Keys" />
+                  </properties>
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Agregado.Outputs[por pais].Columns[pais]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      lineageId="Package\Tarea Flujo de datos\Agregado.Outputs[por pais].Columns[pais]"
+                      name="pais">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica el id. de la columna de entrada usada en la agregación."
+                          name="AggregationColumnId">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[pais]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el tipo de agregación."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indica si la columna requiere tratamiento especial porque puede contener datos de tamaño excesivo o porque requiere mayor precisión que el tipo de datos float."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica las opciones de comparación de cadenas."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Agregado.Outputs[por pais].Columns[monto]"
+                      dataType="numeric"
+                      lineageId="Package\Tarea Flujo de datos\Agregado.Outputs[por pais].Columns[monto]"
+                      name="monto"
+                      precision="18"
+                      scale="2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica el id. de la columna de entrada usada en la agregación."
+                          name="AggregationColumnId">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[monto]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el tipo de agregación."
+                          name="AggregationType"
+                          typeConverter="AggregationType">4</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indica si la columna requiere tratamiento especial porque puede contener datos de tamaño excesivo o porque requiere mayor precisión que el tipo de datos float."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica las opciones de comparación de cadenas."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Agregado.Outputs[por pais].Columns[idfacturacion]"
+                      dataType="ui4"
+                      lineageId="Package\Tarea Flujo de datos\Agregado.Outputs[por pais].Columns[idfacturacion]"
+                      name="idfacturacion">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica el id. de la columna de entrada usada en la agregación."
+                          name="AggregationColumnId">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idfacturacion]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el tipo de agregación."
+                          name="AggregationType"
+                          typeConverter="AggregationType">3</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indica si la columna requiere tratamiento especial porque puede contener datos de tamaño excesivo o porque requiere mayor precisión que el tipo de datos float."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica las opciones de comparación de cadenas."
+                          name="AggregationComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el número aproximado de valores distintos de una columna que cuenta la agregación de forma distintiva. Mínimo indica 500.000 valores de clave, Medio indica 5.000.000 de valores de clave y Alto indica más de 25.000.000 valores de clave. No especificado indica que no se usa ningún valor de CountDistinctScale."
+                          name="CountDistinctScale">0</property>
+                        <property
+                          dataType="System.UInt32"
+                          description="Especifica el número exacto de valores distintos de una columna que cuenta la agregación de forma distintiva. Si se especifica un valor de CountDistinctScale, el valor de CountDistinctKeys tiene prioridad."
+                          name="CountDistinctKeys">0</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\Agregado.Outputs[por cliente]"
+                  name="por cliente">
+                  <properties>
+                    <property
+                      dataType="System.UInt32"
+                      description="Especifica el número aproximado de claves GROUP BY que produce la agregación. Mínimo indica 500.000 valores de clave, Medio indica 5.000.000 de valores de clave y Alto indica más de 25.000.000 de valores de clave. No especificado indica que no se usó ningún valor de KeyScale."
+                      name="KeyScale"
+                      typeConverter="KeyScaleType">0</property>
+                    <property
+                      dataType="System.Null"
+                      description="Especifica el número exacto de claves GROUP BY que produce la agregación. Si se especifica un valor de KeyScale, el valor de Keys tiene prioridad."
+                      name="Keys" />
+                  </properties>
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Agregado.Outputs[por cliente].Columns[tipo_cliente]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      lineageId="Package\Tarea Flujo de datos\Agregado.Outputs[por cliente].Columns[tipo_cliente]"
+                      name="tipo_cliente">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica el id. de la columna de entrada usada en la agregación."
+                          name="AggregationColumnId">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[tipo_cliente]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el tipo de agregación."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indica si la columna requiere tratamiento especial porque puede contener datos de tamaño excesivo o porque requiere mayor precisión que el tipo de datos float."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica las opciones de comparación de cadenas."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Agregado.Outputs[por cliente].Columns[monto]"
+                      dataType="numeric"
+                      lineageId="Package\Tarea Flujo de datos\Agregado.Outputs[por cliente].Columns[monto]"
+                      name="monto"
+                      precision="18"
+                      scale="2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica el id. de la columna de entrada usada en la agregación."
+                          name="AggregationColumnId">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[monto]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el tipo de agregación."
+                          name="AggregationType"
+                          typeConverter="AggregationType">4</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indica si la columna requiere tratamiento especial porque puede contener datos de tamaño excesivo o porque requiere mayor precisión que el tipo de datos float."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica las opciones de comparación de cadenas."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Agregado.Outputs[por cliente].Columns[idfacturacion]"
+                      dataType="ui4"
+                      lineageId="Package\Tarea Flujo de datos\Agregado.Outputs[por cliente].Columns[idfacturacion]"
+                      name="idfacturacion">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica el id. de la columna de entrada usada en la agregación."
+                          name="AggregationColumnId">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idfacturacion]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el tipo de agregación."
+                          name="AggregationType"
+                          typeConverter="AggregationType">3</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indica si la columna requiere tratamiento especial porque puede contener datos de tamaño excesivo o porque requiere mayor precisión que el tipo de datos float."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica las opciones de comparación de cadenas."
+                          name="AggregationComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el número aproximado de valores distintos de una columna que cuenta la agregación de forma distintiva. Mínimo indica 500.000 valores de clave, Medio indica 5.000.000 de valores de clave y Alto indica más de 25.000.000 valores de clave. No especificado indica que no se usa ningún valor de CountDistinctScale."
+                          name="CountDistinctScale">0</property>
+                        <property
+                          dataType="System.UInt32"
+                          description="Especifica el número exacto de valores distintos de una columna que cuenta la agregación de forma distintiva. Si se especifica un valor de CountDistinctScale, el valor de CountDistinctKeys tiene prioridad."
+                          name="CountDistinctKeys">0</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Columna derivada"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+              name="Columna derivada"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Columna derivada.Inputs[Entrada de columna derivada]"
+                  description="Entrada en la transformación Columna derivada"
+                  name="Entrada de columna derivada">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada.Inputs[Entrada de columna derivada].Columns[pais]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="20"
+                      cachedName="pais"
+                      lineageId="Package\Tarea Flujo de datos\Agregado.Outputs[por pais].Columns[pais]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de columna derivada]"
+                  description="Salida predeterminada de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  name="Salida de columna derivada"
+                  synchronousInputId="Package\Tarea Flujo de datos\Columna derivada.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de columna derivada].Columns[bycountry]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de columna derivada].Columns[bycountry]"
+                      name="bycountry"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">(DT_WSTR,50)([ISNULL](#{Package\Tarea Flujo de datos\Agregado.Outputs[por pais].Columns[pais]}) ? "" : [TRIM](#{Package\Tarea Flujo de datos\Agregado.Outputs[por pais].Columns[pais]}))</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_WSTR,50)(ISNULL(pais) ? "" : TRIM(pais))</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de error de columna derivada]"
+                  description="Salida de error de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de columna derivada"
+                  synchronousInputId="Package\Tarea Flujo de datos\Columna derivada.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Columna derivada 1"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+              name="Columna derivada 1"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Columna derivada 1.Inputs[Entrada de columna derivada]"
+                  description="Entrada en la transformación Columna derivada"
+                  name="Entrada de columna derivada">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada 1.Inputs[Entrada de columna derivada].Columns[tipo_cliente]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="100"
+                      cachedName="tipo_cliente"
+                      lineageId="Package\Tarea Flujo de datos\Agregado.Outputs[por cliente].Columns[tipo_cliente]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de columna derivada]"
+                  description="Salida predeterminada de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  name="Salida de columna derivada"
+                  synchronousInputId="Package\Tarea Flujo de datos\Columna derivada 1.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de columna derivada].Columns[typebyclient]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de columna derivada].Columns[typebyclient]"
+                      name="typebyclient"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">(DT_WSTR,50)([ISNULL](#{Package\Tarea Flujo de datos\Agregado.Outputs[por cliente].Columns[tipo_cliente]}) ? "" : [TRIM](#{Package\Tarea Flujo de datos\Agregado.Outputs[por cliente].Columns[tipo_cliente]}))</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_WSTR,50)(ISNULL(tipo_cliente) ? "" : TRIM(tipo_cliente))</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de error de columna derivada]"
+                  description="Salida de error de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de columna derivada"
+                  synchronousInputId="Package\Tarea Flujo de datos\Columna derivada 1.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\db_costarica"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Origen de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;7"
+              description="Origen de OLE DB"
+              name="db_costarica"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[dbo].[vw_movimientos]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="Variable que contiene el comando SQL para ejecutar."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="Asignaciones entre los parámetros del comando SQL y las variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\db_costarica.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-KIRL4P4\SQL2022DW.db_roaming_costarica]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-KIRL4P4\SQL2022DW.db_roaming_costarica]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB]"
+                  name="Salida de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[pais]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].ExternalColumns[pais]"
+                      length="20"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[pais]"
+                      name="pais"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[idfacturacion]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].ExternalColumns[idfacturacion]"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[idfacturacion]"
+                      name="idfacturacion"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[idcliente]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].ExternalColumns[idcliente]"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[idcliente]"
+                      name="idcliente"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[idtipocliente]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].ExternalColumns[idtipocliente]"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[idtipocliente]"
+                      name="idtipocliente"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[tipo_cliente]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].ExternalColumns[tipo_cliente]"
+                      length="100"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[tipo_cliente]"
+                      name="tipo_cliente"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[monto]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].ExternalColumns[monto]"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[monto]"
+                      name="monto"
+                      precision="18"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[estado]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].ExternalColumns[estado]"
+                      length="1"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[estado]"
+                      name="estado"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].ExternalColumns[pais]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="pais" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].ExternalColumns[idfacturacion]"
+                      dataType="i4"
+                      name="idfacturacion" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].ExternalColumns[idcliente]"
+                      dataType="i4"
+                      name="idcliente" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].ExternalColumns[idtipocliente]"
+                      dataType="i4"
+                      name="idtipocliente" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].ExternalColumns[tipo_cliente]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="tipo_cliente" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].ExternalColumns[monto]"
+                      dataType="numeric"
+                      name="monto"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].ExternalColumns[estado]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      name="estado" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[pais]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[pais]"
+                      name="pais" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[idfacturacion]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[idfacturacion]"
+                      name="idfacturacion" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[idcliente]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[idcliente]"
+                      name="idcliente" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[idtipocliente]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[idtipocliente]"
+                      name="idtipocliente" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[tipo_cliente]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[tipo_cliente]"
+                      name="tipo_cliente" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[monto]"
+                      dataType="numeric"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[monto]"
+                      name="monto"
+                      precision="18"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[estado]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[estado]"
+                      name="estado" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\db_guatemala"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Origen de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;7"
+              description="Origen de OLE DB"
+              name="db_guatemala"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[dbo].[vw_movimientos]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="Variable que contiene el comando SQL para ejecutar."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="Asignaciones entre los parámetros del comando SQL y las variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\db_guatemala.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-KIRL4P4\SQL2022DW.db_roaming_guatemala]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-KIRL4P4\SQL2022DW.db_roaming_guatemala]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB]"
+                  name="Salida de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[pais]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].ExternalColumns[pais]"
+                      length="20"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[pais]"
+                      name="pais"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[idfacturacion]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].ExternalColumns[idfacturacion]"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[idfacturacion]"
+                      name="idfacturacion"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[idcliente]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].ExternalColumns[idcliente]"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[idcliente]"
+                      name="idcliente"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[idtipocliente]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].ExternalColumns[idtipocliente]"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[idtipocliente]"
+                      name="idtipocliente"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[tipo_cliente]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].ExternalColumns[tipo_cliente]"
+                      length="100"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[tipo_cliente]"
+                      name="tipo_cliente"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[monto]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].ExternalColumns[monto]"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[monto]"
+                      name="monto"
+                      precision="18"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[estado]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].ExternalColumns[estado]"
+                      length="1"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[estado]"
+                      name="estado"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].ExternalColumns[pais]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="pais" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].ExternalColumns[idfacturacion]"
+                      dataType="i4"
+                      name="idfacturacion" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].ExternalColumns[idcliente]"
+                      dataType="i4"
+                      name="idcliente" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].ExternalColumns[idtipocliente]"
+                      dataType="i4"
+                      name="idtipocliente" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].ExternalColumns[tipo_cliente]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="tipo_cliente" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].ExternalColumns[monto]"
+                      dataType="numeric"
+                      name="monto"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].ExternalColumns[estado]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      name="estado" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[pais]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[pais]"
+                      name="pais" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[idfacturacion]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[idfacturacion]"
+                      name="idfacturacion" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[idcliente]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[idcliente]"
+                      name="idcliente" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[idtipocliente]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[idtipocliente]"
+                      name="idtipocliente" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[tipo_cliente]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[tipo_cliente]"
+                      name="tipo_cliente" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[monto]"
+                      dataType="numeric"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[monto]"
+                      name="monto"
+                      precision="18"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[estado]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[estado]"
+                      name="estado" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\db_honduras"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Origen de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;7"
+              description="Origen de OLE DB"
+              name="db_honduras"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[dbo].[vw_movimientos]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="Variable que contiene el comando SQL para ejecutar."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="Asignaciones entre los parámetros del comando SQL y las variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\db_honduras.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-KIRL4P4\SQL2022DW.db_roaming_honduras]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-KIRL4P4\SQL2022DW.db_roaming_honduras]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB]"
+                  name="Salida de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[pais]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].ExternalColumns[pais]"
+                      length="20"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[pais]"
+                      name="pais"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[idfacturacion]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].ExternalColumns[idfacturacion]"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[idfacturacion]"
+                      name="idfacturacion"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[idcliente]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].ExternalColumns[idcliente]"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[idcliente]"
+                      name="idcliente"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[idtipocliente]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].ExternalColumns[idtipocliente]"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[idtipocliente]"
+                      name="idtipocliente"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[tipo_cliente]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].ExternalColumns[tipo_cliente]"
+                      length="100"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[tipo_cliente]"
+                      name="tipo_cliente"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[monto]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].ExternalColumns[monto]"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[monto]"
+                      name="monto"
+                      precision="18"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[estado]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].ExternalColumns[estado]"
+                      length="1"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[estado]"
+                      name="estado"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].ExternalColumns[pais]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="pais" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].ExternalColumns[idfacturacion]"
+                      dataType="i4"
+                      name="idfacturacion" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].ExternalColumns[idcliente]"
+                      dataType="i4"
+                      name="idcliente" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].ExternalColumns[idtipocliente]"
+                      dataType="i4"
+                      name="idtipocliente" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].ExternalColumns[tipo_cliente]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="tipo_cliente" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].ExternalColumns[monto]"
+                      dataType="numeric"
+                      name="monto"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].ExternalColumns[estado]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      name="estado" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[pais]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[pais]"
+                      name="pais" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[idfacturacion]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[idfacturacion]"
+                      name="idfacturacion" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[idcliente]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[idcliente]"
+                      name="idcliente" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[idtipocliente]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[idtipocliente]"
+                      name="idtipocliente" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[tipo_cliente]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[tipo_cliente]"
+                      name="tipo_cliente" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[monto]"
+                      dataType="numeric"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[monto]"
+                      name="monto"
+                      precision="18"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[estado]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[estado]"
+                      name="estado" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Destino de Excel 1"
+              componentClassID="Microsoft.ExcelDestination"
+              contactInfo="Destino de Excel;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Destino de Excel"
+              name="Destino de Excel 1"
+              usesDispositions="true">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">Hoja1$</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\Destino de Excel 1.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Administrador de conexiones con Excel 9]"
+                  connectionManagerRefId="Package.ConnectionManagers[Administrador de conexiones con Excel 9]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Destino de Excel 1.Inputs[Entrada de destino de Excel]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="IgnoreFailure"
+                  hasSideEffects="true"
+                  name="Entrada de destino de Excel">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de Excel 1.Inputs[Entrada de destino de Excel].Columns[monto]"
+                      cachedDataType="numeric"
+                      cachedName="monto"
+                      cachedPrecision="18"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de Excel 1.Inputs[Entrada de destino de Excel].ExternalColumns[monto]"
+                      lineageId="Package\Tarea Flujo de datos\Agregado.Outputs[por pais].Columns[monto]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de Excel 1.Inputs[Entrada de destino de Excel].Columns[idfacturacion]"
+                      cachedDataType="ui4"
+                      cachedName="idfacturacion"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de Excel 1.Inputs[Entrada de destino de Excel].ExternalColumns[facturacion]"
+                      lineageId="Package\Tarea Flujo de datos\Agregado.Outputs[por pais].Columns[idfacturacion]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de Excel 1.Inputs[Entrada de destino de Excel].Columns[bycountry]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="bycountry"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de Excel 1.Inputs[Entrada de destino de Excel].ExternalColumns[pais]"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de columna derivada].Columns[bycountry]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de Excel 1.Inputs[Entrada de destino de Excel].ExternalColumns[pais]"
+                      dataType="wstr"
+                      length="255"
+                      name="pais" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de Excel 1.Inputs[Entrada de destino de Excel].ExternalColumns[monto]"
+                      dataType="wstr"
+                      length="255"
+                      name="monto" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de Excel 1.Inputs[Entrada de destino de Excel].ExternalColumns[facturacion]"
+                      dataType="wstr"
+                      length="255"
+                      name="facturacion" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Destino de Excel 1.Outputs[Salida de error de destino de Excel]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de Excel"
+                  synchronousInputId="Package\Tarea Flujo de datos\Destino de Excel 1.Inputs[Entrada de destino de Excel]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de Excel 1.Outputs[Salida de error de destino de Excel].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Destino de Excel 1.Outputs[Salida de error de destino de Excel].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de Excel 1.Outputs[Salida de error de destino de Excel].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Destino de Excel 1.Outputs[Salida de error de destino de Excel].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Destino de Excel 2"
+              componentClassID="Microsoft.ExcelDestination"
+              contactInfo="Destino de Excel;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Destino de Excel"
+              name="Destino de Excel 2"
+              usesDispositions="true">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">Hoja1$</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\Destino de Excel 2.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Administrador de conexiones con Excel 10]"
+                  connectionManagerRefId="Package.ConnectionManagers[Administrador de conexiones con Excel 10]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Destino de Excel 2.Inputs[Entrada de destino de Excel]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="IgnoreFailure"
+                  hasSideEffects="true"
+                  name="Entrada de destino de Excel">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de Excel 2.Inputs[Entrada de destino de Excel].Columns[monto]"
+                      cachedDataType="numeric"
+                      cachedName="monto"
+                      cachedPrecision="18"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de Excel 2.Inputs[Entrada de destino de Excel].ExternalColumns[monto]"
+                      lineageId="Package\Tarea Flujo de datos\Agregado.Outputs[por cliente].Columns[monto]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de Excel 2.Inputs[Entrada de destino de Excel].Columns[idfacturacion]"
+                      cachedDataType="ui4"
+                      cachedName="idfacturacion"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de Excel 2.Inputs[Entrada de destino de Excel].ExternalColumns[facturacion]"
+                      lineageId="Package\Tarea Flujo de datos\Agregado.Outputs[por cliente].Columns[idfacturacion]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de Excel 2.Inputs[Entrada de destino de Excel].Columns[typebyclient]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="typebyclient"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de Excel 2.Inputs[Entrada de destino de Excel].ExternalColumns[tipo_cliente]"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de columna derivada].Columns[typebyclient]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de Excel 2.Inputs[Entrada de destino de Excel].ExternalColumns[tipo_cliente]"
+                      dataType="wstr"
+                      length="255"
+                      name="tipo_cliente" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de Excel 2.Inputs[Entrada de destino de Excel].ExternalColumns[monto]"
+                      dataType="wstr"
+                      length="255"
+                      name="monto" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de Excel 2.Inputs[Entrada de destino de Excel].ExternalColumns[facturacion]"
+                      dataType="wstr"
+                      length="255"
+                      name="facturacion" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Destino de Excel 2.Outputs[Salida de error de destino de Excel]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de Excel"
+                  synchronousInputId="Package\Tarea Flujo de datos\Destino de Excel 2.Inputs[Entrada de destino de Excel]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de Excel 2.Outputs[Salida de error de destino de Excel].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Destino de Excel 2.Outputs[Salida de error de destino de Excel].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de Excel 2.Outputs[Salida de error de destino de Excel].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Destino de Excel 2.Outputs[Salida de error de destino de Excel].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Unión de todo"
+              componentClassID="Microsoft.UnionAll"
+              contactInfo="Unión de todo;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
+              description="Combina las filas de varios flujos de datos sin ordenarlos. Por ejemplo, devuelve filas a un flujo de datos después de corregir los errores. Si el orden es importante, se recomienda usar la transformación Mezclar."
+              name="Unión de todo"
+              version="1">
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1]"
+                  name="Entrada de Unión de todo 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[pais]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="20"
+                      cachedName="pais"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[pais]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[pais]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[idfacturacion]"
+                      cachedDataType="i4"
+                      cachedName="idfacturacion"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[idfacturacion]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idfacturacion]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[idcliente]"
+                      cachedDataType="i4"
+                      cachedName="idcliente"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[idcliente]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idcliente]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[idtipocliente]"
+                      cachedDataType="i4"
+                      cachedName="idtipocliente"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[idtipocliente]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idtipocliente]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[tipo_cliente]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="100"
+                      cachedName="tipo_cliente"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[tipo_cliente]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[tipo_cliente]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[monto]"
+                      cachedDataType="numeric"
+                      cachedName="monto"
+                      cachedPrecision="18"
+                      cachedScale="2"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[monto]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[monto]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1].Columns[estado]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
+                      cachedName="estado"
+                      lineageId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB].Columns[estado]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[estado]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2]"
+                  hasSideEffects="true"
+                  name="Entrada de Unión de todo 2">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[pais]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="20"
+                      cachedName="pais"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[pais]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[pais]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[idfacturacion]"
+                      cachedDataType="i4"
+                      cachedName="idfacturacion"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[idfacturacion]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idfacturacion]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[idcliente]"
+                      cachedDataType="i4"
+                      cachedName="idcliente"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[idcliente]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idcliente]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[idtipocliente]"
+                      cachedDataType="i4"
+                      cachedName="idtipocliente"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[idtipocliente]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idtipocliente]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[tipo_cliente]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="100"
+                      cachedName="tipo_cliente"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[tipo_cliente]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[tipo_cliente]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[monto]"
+                      cachedDataType="numeric"
+                      cachedName="monto"
+                      cachedPrecision="18"
+                      cachedScale="2"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[monto]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[monto]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2].Columns[estado]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
+                      cachedName="estado"
+                      lineageId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB].Columns[estado]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[estado]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 3]"
+                  hasSideEffects="true"
+                  name="Entrada de Unión de todo 3">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 3].Columns[pais]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="20"
+                      cachedName="pais"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[pais]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[pais]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 3].Columns[idfacturacion]"
+                      cachedDataType="i4"
+                      cachedName="idfacturacion"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[idfacturacion]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idfacturacion]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 3].Columns[idcliente]"
+                      cachedDataType="i4"
+                      cachedName="idcliente"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[idcliente]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idcliente]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 3].Columns[idtipocliente]"
+                      cachedDataType="i4"
+                      cachedName="idtipocliente"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[idtipocliente]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idtipocliente]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 3].Columns[tipo_cliente]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="100"
+                      cachedName="tipo_cliente"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[tipo_cliente]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[tipo_cliente]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 3].Columns[monto]"
+                      cachedDataType="numeric"
+                      cachedName="monto"
+                      cachedPrecision="18"
+                      cachedScale="2"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[monto]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[monto]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 3].Columns[estado]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
+                      cachedName="estado"
+                      lineageId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB].Columns[estado]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Id. de linaje de columna de salida"
+                          name="OutputColumnLineageID">#{Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[estado]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 4]"
+                  dangling="true"
+                  hasSideEffects="true"
+                  name="Entrada de Unión de todo 4">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1]"
+                  name="Salida de Unión de todo 1">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[pais]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[pais]"
+                      name="pais" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idfacturacion]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idfacturacion]"
+                      name="idfacturacion" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idcliente]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idcliente]"
+                      name="idcliente" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idtipocliente]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[idtipocliente]"
+                      name="idtipocliente" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[tipo_cliente]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[tipo_cliente]"
+                      name="tipo_cliente" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[monto]"
+                      dataType="numeric"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[monto]"
+                      name="monto"
+                      precision="18"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[estado]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      lineageId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1].Columns[estado]"
+                      name="estado" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[por cliente]"
+              endId="Package\Tarea Flujo de datos\Columna derivada 1.Inputs[Entrada de columna derivada]"
+              name="por cliente"
+              startId="Package\Tarea Flujo de datos\Agregado.Outputs[por cliente]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[por pais]"
+              endId="Package\Tarea Flujo de datos\Columna derivada.Inputs[Entrada de columna derivada]"
+              name="por pais"
+              startId="Package\Tarea Flujo de datos\Agregado.Outputs[por pais]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de columna derivada]"
+              endId="Package\Tarea Flujo de datos\Destino de Excel 1.Inputs[Entrada de destino de Excel]"
+              name="Salida de columna derivada"
+              startId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de columna derivada]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de columna derivada1]"
+              endId="Package\Tarea Flujo de datos\Destino de Excel 2.Inputs[Entrada de destino de Excel]"
+              name="Salida de columna derivada"
+              startId="Package\Tarea Flujo de datos\Columna derivada 1.Outputs[Salida de columna derivada]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de origen de OLE DB]"
+              endId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 1]"
+              name="Salida de origen de OLE DB"
+              startId="Package\Tarea Flujo de datos\db_costarica.Outputs[Salida de origen de OLE DB]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de origen de OLE DB1]"
+              endId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 2]"
+              name="Salida de origen de OLE DB"
+              startId="Package\Tarea Flujo de datos\db_guatemala.Outputs[Salida de origen de OLE DB]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de origen de OLE DB2]"
+              endId="Package\Tarea Flujo de datos\Unión de todo.Inputs[Entrada de Unión de todo 3]"
+              name="Salida de origen de OLE DB"
+              startId="Package\Tarea Flujo de datos\db_honduras.Outputs[Salida de origen de OLE DB]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de Unión de todo 1]"
+              endId="Package\Tarea Flujo de datos\Agregado.Inputs[Entrada de agregado 1]"
+              name="Salida de Unión de todo 1"
+              startId="Package\Tarea Flujo de datos\Unión de todo.Outputs[Salida de Unión de todo 1]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Tarea Flujo de datos"
+          TopLeft="110,75" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Tarea Flujo de datos">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="168,42"
+          Id="Package\Tarea Flujo de datos\Columna derivada"
+          TopLeft="205,423" />
+        <NodeLayout
+          Size="147,42"
+          Id="Package\Tarea Flujo de datos\Unión de todo"
+          TopLeft="346,230" />
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Tarea Flujo de datos\Columna derivada 1"
+          TopLeft="511,435" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Tarea Flujo de datos\Destino de Excel 1"
+          TopLeft="212,520" />
+        <NodeLayout
+          Size="143,42"
+          Id="Package\Tarea Flujo de datos\db_honduras"
+          TopLeft="596,113" />
+        <NodeLayout
+          Size="149,42"
+          Id="Package\Tarea Flujo de datos\db_guatemala"
+          TopLeft="358,105" />
+        <NodeLayout
+          Size="141,42"
+          Id="Package\Tarea Flujo de datos\db_costarica"
+          TopLeft="141,105" />
+        <NodeLayout
+          Size="127,42"
+          Id="Package\Tarea Flujo de datos\Agregado"
+          TopLeft="329,318" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Tarea Flujo de datos\Destino de Excel 2"
+          TopLeft="490,542" />
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de Unión de todo 1]"
+          TopLeft="419.5,272">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-27,46"
+              Start="0,0"
+              End="-27,38.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19"
+                    Point2="0,23"
+                    Point3="-4,23" />
+                  <mssgle:LineSegment
+                    End="-23,23" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-23,23"
+                    Point2="-27,23"
+                    Point3="-27,27" />
+                  <mssgle:LineSegment
+                    End="-27,38.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de OLE DB2]"
+          TopLeft="667.5,155">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-213.25,75"
+              Start="0,0"
+              End="-213.25,67.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.109131403118" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,45.109131403118"
+                    Point2="0,49.109131403118"
+                    Point3="-4,49.109131403118" />
+                  <mssgle:LineSegment
+                    End="-209.25,49.109131403118" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-209.25,49.109131403118"
+                    Point2="-213.25,49.109131403118"
+                    Point3="-213.25,53.109131403118" />
+                  <mssgle:LineSegment
+                    End="-213.25,67.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de OLE DB1]"
+          TopLeft="432.5,147">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-13,83"
+              Start="0,0"
+              End="-13,75.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,37.5"
+                    Point2="0,41.5"
+                    Point3="-4,41.5" />
+                  <mssgle:LineSegment
+                    End="-9,41.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-9,41.5"
+                    Point2="-13,41.5"
+                    Point3="-13,45.5" />
+                  <mssgle:LineSegment
+                    End="-13,75.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de OLE DB]"
+          TopLeft="211.5,147">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="173.25,83"
+              Start="0,0"
+              End="173.25,75.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,50.347438752784" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,50.347438752784"
+                    Point2="0,54.347438752784"
+                    Point3="4,54.347438752784" />
+                  <mssgle:LineSegment
+                    End="169.25,54.347438752784" />
+                  <mssgle:CubicBezierSegment
+                    Point1="169.25,54.347438752784"
+                    Point2="173.25,54.347438752784"
+                    Point3="173.25,58.347438752784" />
+                  <mssgle:LineSegment
+                    End="173.25,75.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de columna derivada1]"
+          TopLeft="599.5,477">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-24.5,65"
+              Start="0,0"
+              End="-24.5,57.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,28.5"
+                    Point2="0,32.5"
+                    Point3="-4,32.5" />
+                  <mssgle:LineSegment
+                    End="-20.5,32.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-20.5,32.5"
+                    Point2="-24.5,32.5"
+                    Point3="-24.5,36.5" />
+                  <mssgle:LineSegment
+                    End="-24.5,57.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de columna derivada]"
+          TopLeft="289,465">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="8,55"
+              Start="0,0"
+              End="8,47.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23.5"
+                    Point2="0,27.5"
+                    Point3="4,27.5" />
+                  <mssgle:LineSegment
+                    End="4,27.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="4,27.5"
+                    Point2="8,27.5"
+                    Point3="8,31.5" />
+                  <mssgle:LineSegment
+                    End="8,47.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[por pais]"
+          TopLeft="372.666666666667,360">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-83.6666666666667,63"
+              Start="0,0"
+              End="-83.6666666666667,55.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.6702954898911" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.6702954898911"
+                    Point2="0,25.6702954898911"
+                    Point3="-4,25.6702954898911" />
+                  <mssgle:LineSegment
+                    End="-79.6666666666667,25.6702954898911" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-79.6666666666667,25.6702954898911"
+                    Point2="-83.6666666666667,25.6702954898911"
+                    Point3="-83.6666666666667,29.6702954898911" />
+                  <mssgle:LineSegment
+                    End="-83.6666666666667,55.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-60.0175325520833,30.6702954898911,36.3683984375,11.3310546875"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[por cliente]"
+          TopLeft="412.333333333333,360">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="187.166666666667,75"
+              Start="0,0"
+              End="187.166666666667,67.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.5598755832037" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.5598755832037"
+                    Point2="0,30.5598755832037"
+                    Point3="4,30.5598755832037" />
+                  <mssgle:LineSegment
+                    End="183.166666666667,30.5598755832037" />
+                  <mssgle:CubicBezierSegment
+                    Point1="183.166666666667,30.5598755832037"
+                    Point2="187.166666666667,30.5598755832037"
+                    Point3="187.166666666667,34.5598755832037" />
+                  <mssgle:LineSegment
+                    End="187.166666666667,67.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="69.8853645833333,35.5598755832037,47.3959375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tarea Flujo de datos\Destino de Excel 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tarea Flujo de datos\db_honduras">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">View</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tarea Flujo de datos\db_guatemala">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">View</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tarea Flujo de datos\db_costarica">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">View</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tarea Flujo de datos\Destino de Excel 2">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
